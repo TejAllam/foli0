@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { ImageGrid } from "app/components/image-grid";
 
 export const metadata: Metadata = {
-  title: "Photos",
-  description: "My Photos",
+  title: "Photos 📸",
+  description: "What's life without a few snaps",
 };
 
 export default function Photos() {
@@ -35,14 +35,14 @@ export default function Photos() {
             href: "https://unsplash.com/photos/the-eiffel-tower-towering-over-the-city-of-paris-OgPuPvPsHLM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
           },
           {
-            src: "/photos/photo5.jpg",
-            alt: "Taj Mahal",
-            href: "https://unsplash.com/photos/taj-mahal-india-IPlPkWPJ2fo",
+            src: "/photos/photo13.jpg",
+            alt: "Somewhere in Zurich",
+            href: "#",
           },
           {
-            src: "/photos/photo6.jpg",
-            alt: "Colosseum",
-            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            src: "/photos/photo18.jpg",
+            alt: "Amsterdam",
+            href: "#",
           },
         ]}
       />
@@ -50,22 +50,22 @@ export default function Photos() {
       <ImageGrid
         columns={2}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
-          { src: "/photos/photo2.jpg", alt: "Big Ben" },
-          { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo7.jpg", alt: "" },
+          { src: "/photos/photo8.jpg", alt: "" },
+          { src: "/photos/photo9.jpg", alt: "" },
+          { src: "/photos/photo10.jpg", alt: "" },
         ]}
       />
 
       <ImageGrid
         columns={4}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
-          { src: "/photos/photo2.jpg", alt: "Big Ben" },
-          { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
-          { src: "/photos/photo5.jpg", alt: "Taj Mahal" },
-          { src: "/photos/photo6.jpg", alt: "Colosseum" },
+          { src: "/photos/photo11.jpg", alt: "" },
+          { src: "/photos/photo12.jpg", alt: "" },
+          { src: "/photos/photo13.jpg", alt: "" },
+          { src: "/photos/photo14.jpg", alt: "" },
+          { src: "/photos/photo15.jpg", alt: "" },
+          { src: "/photos/photo16.jpg", alt: "" },
         ]}
       />
     </section>
