@@ -8,6 +8,7 @@ export const metaData = {
 };
 
 export const socialLinks = {
+  bluesky:"https://bsky.app/profile/tejallam.bsky.social",
   twitter: "https://x.com/TejAllam",
   bsky: "https://TejAllam.bsky.social",
   github: "https://github.com/TejAllam",
