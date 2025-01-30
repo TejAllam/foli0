@@ -14,20 +14,26 @@ export const projects: Project[] = [
   },
   {
     title: "Data Finder",
-    year: 2023,
+    year: 2014,
     description: "Data Finder",
     url: "https://data.bls.gov/dataQuery/",
   },
   {
     title: "Data Viewer",
-    year: 2023,
-    description: "Open source AI education resources",
+    year: 2014,
+    description: "Composite dispay of suvey data on a single screen.",
     url: "https://data.bls.gov/dataViewer/",
   },
   {
     title: "PDQ Web",
-    year: 2023,
-    description: "Data Query Single Screen",
+    year: 2018,
+    description: "Data Query Single Screen.",
     url: "https://data.bls.gov/PDQWeb/",
+  }, 
+  {
+    title: "Data Glove",
+    year: 2008,
+    description: "Final year School project to relay hand gestures to speech ",
+    url: "",
   }, 
 ];
