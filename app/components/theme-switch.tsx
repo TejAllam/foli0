@@ -39,6 +39,10 @@ export const ThemeSwitch: React.FC = () => {
   const reflectPreference = (theme: 'light' | 'dark') => {
     document.documentElement.classList.remove('bg-light', 'bg-dark');
     document.documentElement.classList.add(`bg-${theme}`);
+    const logoElement = document.querySelector('.fixed-logo');
+    if (logoElement) {
+      logoElement.className = `fixed-logo ${theme === 'light' ? 'dark-logo' : 'light-logo'}`;
+    }
     setCurrentTheme(theme);
     setTheme(theme);
   };
@@ -53,6 +57,7 @@ export const ThemeSwitch: React.FC = () => {
       const newTheme = mediaQuery.matches ? 'dark' : 'light';
       localStorage.setItem(storageKey, newTheme);
       reflectPreference(newTheme);
+      setCurrentTheme(newTheme);
     };
 
     mediaQuery.addEventListener('change', handleChange);
@@ -64,6 +69,7 @@ export const ThemeSwitch: React.FC = () => {
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
     localStorage.setItem(storageKey, newTheme);
     reflectPreference(newTheme);
+    setCurrentTheme(newTheme);
   };
 
   if (!mounted) {

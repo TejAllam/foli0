@@ -1,0 +1,19 @@
+.fixed-logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1000;
+  }
+
+.light-logo {
+    background-image: url('/svg/w_logo_no_bg.svg');
+}
+
+.dark-logo {
+    background-image: url('/svg/b_logo_no_bg.svg');
+}

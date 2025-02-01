@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { socialLinks } from "./config";
+import './styles.css';
 
 export default function Page() {
   return (
-    <section>
+    <>
+    <section className="background-logo">
       <a href={socialLinks.linkedin} target="_blank">
         <Image
           src="/profile_me.png"
@@ -28,5 +30,7 @@ export default function Page() {
           wrangling 🖥code and keeping up with the latest tech ⚡.</p>
       </div>
     </section>
+    <div className="fixed-logo"></div>
+    </>
   );
 }
