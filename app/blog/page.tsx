@@ -3,7 +3,7 @@ import { formatDate, getBlogPosts } from "app/lib/posts";
 
 export const metadata = {
   title: "Blog",
-  description: "Nextfolio Blog",
+  description: "Micro blog",
 };
 
 export default function BlogPosts() {
