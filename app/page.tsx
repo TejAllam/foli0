@@ -7,13 +7,16 @@ import { useEffect } from "react";
 export default function Page() {
   useEffect(() => {
     const messages = [
-      "Hi!      ",
+      "Hi!  ^^  ",
       "Hello    ",
       "Hola",
+      "నమస్కారం",
       "नमस्ते",
       "你好",
-      "నమస్కారం",
-      "         ",
+      "  48 69  ",
+      "01001000",
+      "01101001",
+      ".... ..",
       // "wanderer ",
       // "journeyman",
       // "traveller "
@@ -56,7 +59,7 @@ export default function Page() {
     }
 
     updateDisplay(); // Initial display
-    setInterval(updateDisplay, 5000); // Update every 5 seconds
+    setInterval(updateDisplay, 4000); // Update every 5 seconds
 
   }, []);
   return (
