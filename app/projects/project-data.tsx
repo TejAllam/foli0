@@ -16,13 +16,25 @@ export const projects: Project[] = [
     title: "ARS",
     year: 2016,
     description: "Annual Refiling Survey",
-    url: "  https://idcfars.bls.gov/ARS/",
-  }, 
+    url: "https://idcfars.bls.gov/ARS/",
+  },
+  {
+    title: "CES Lite",
+    year: 2016,
+    description: "Current Employment Statistics - Lite Version",
+    url: "https://cesdata.bls.gov/CESLite",
+  },
   {
     title: "OEWS",
     year: 2014,
     description: "Occupational Employment and Wage Statistics",
     url: "https://idcfoews.bls.gov/OEWSLite",
+  },
+  {
+    title: "JOLTS",
+    year: 2017,
+    description: "Job Opening and Labor Turover Survey",
+    url: "https://joltsdata.bls.gov/JOLTS",
   },
   {
     title: "PDQ Web",
