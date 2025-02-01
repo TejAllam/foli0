@@ -22,11 +22,11 @@ export default function Page() {
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
 
-        <p>Greetings, internet wanderer! I'm <strong>Tej</strong>!</p>
-        <p>An engineer constantly in the <em>making</em>, charting the uncharted territories of tomorrow.</p>
-        <p>Fueled by ☕ and the dream of a brighter future (and maybe world peace ☮️, while we're at it),
-        I'm dedicating my time ⏳ on this spinning rock 🌎 to doing what I love: <br/>
-        wrangling 🖥️ code and exploring the frontiers of technology.</p>
+      <p>Greetings, internet wanderer! I'm <strong>Tej</strong>!</p>
+      <p>Welcome to my corner on the internet. I'm an engineer constantly in the <em>making</em>, charting the uncharted territories of tomorrow.</p>
+      <p>Fueled by ☕ and the dream of a brighter future,
+      I'm dedicating my time ⏳ on this spinning rock 🌎 to doing what I love: <br/>
+      wrangling 🖥️ code and exploring the frontiers of technology.</p>
       </div>
     </section>
     <div className="fixed-logo"></div>

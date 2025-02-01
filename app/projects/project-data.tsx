@@ -13,6 +13,24 @@ export const projects: Project[] = [
     url: "https://idcf.bls.gov",
   },
   {
+    title: "ARS",
+    year: 2016,
+    description: "Annual Refiling Survey",
+    url: "  https://idcfars.bls.gov/ARS/",
+  }, 
+  {
+    title: "OEWS",
+    year: 2014,
+    description: "Occupational Employment and Wage Statistics",
+    url: "https://idcfoews.bls.gov/OEWSLite",
+  },
+  {
+    title: "PDQ Web",
+    year: 2018,
+    description: "Data Query Single Screen.",
+    url: "https://data.bls.gov/PDQWeb/",
+  },
+  {
     title: "Data Finder",
     year: 2014,
     description: "Data Finder",
@@ -24,12 +42,6 @@ export const projects: Project[] = [
     description: "Composite dispay of suvey data on a single screen.",
     url: "https://data.bls.gov/dataViewer/",
   },
-  {
-    title: "PDQ Web",
-    year: 2018,
-    description: "Data Query Single Screen.",
-    url: "https://data.bls.gov/PDQWeb/",
-  }, 
   {
     title: "Data Glove",
     year: 2008,
