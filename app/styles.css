@@ -1,19 +1,112 @@
 .fixed-logo {
-    position: fixed;
-    bottom: 100px;
-    right: 100px;
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1000;
-  }
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1000;
+}
 
 .light-logo {
-    background-image: url('/svg/w_logo_no_bg.svg');
+  background-image: url('/svg/w_logo_no_bg.svg');
 }
 
 .dark-logo {
-    background-image: url('/svg/b_logo_no_bg.svg');
+  background-image: url('/svg/b_logo_no_bg.svg');
+}
+
+/* Flip Section styles */
+
+.flip-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  margin: 0;
+  background: #1a1a1a;
+  font-family: 'Courier New', monospace;
+}
+
+.board {
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+  background: #111;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  gap: 4px;
+}
+
+.character {
+  background: #000;
+  width: 2rem;
+  height: 3rem;
+  position: relative;
+  perspective: 400px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.character::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 2;
+}
+
+.flip {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #ffba08;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  animation: flip 0.3s ease-in-out;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  text-shadow: 0 0 5px rgba(255, 186, 8, 0.5);
+  backface-visibility: hidden;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+.scanline {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  animation: scan 6s linear infinite;
+  z-index: 3;
+}
+
+@keyframes scan {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100%;
+  }
 }
