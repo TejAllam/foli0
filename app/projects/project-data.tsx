@@ -7,8 +7,26 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "IDCF",
+    title: "California EDD",
+    year: 2025,
+    description: "Cali State EDD - Platform engineering, API development, DevOps",
+    url: "",
+  },
+  {
+    title: "CES (Internal Project)",
     year: 2024,
+    description: "Engineered internal tools that facilitate the ingestion and validation of microdata for the CES program. These applications ensure the integrity of the data used to produce the 'Monthly Employment Situation' considered one of the PFEI",
+    url: "https://www.bls.gov/ces/",
+  },
+  {
+    title: "JOLTS (Internal Project)",
+    year: 2022,
+    description: "Redesigned the survey-driven architecture for labor turnover tracking, optimizing the capture of critical economic quit and hire rates.",
+    url: "https://www.bls.gov/jlt/",
+  },
+  {
+    title: "IDCF",
+    year: 2020,
     description: "Internet Data Collection Facility at the Bureau of Labor Statistics",
     url: "https://idcf.bls.gov",
   },
@@ -59,5 +77,11 @@ export const projects: Project[] = [
     year: 2008,
     description: "Final year School project to relay hand gestures to speech ",
     url: "",
-  }, 
+  },
 ];
+
+export interface ProjectPreview {
+  screenshotUrl: string | null;
+  description: string | null;
+}
+

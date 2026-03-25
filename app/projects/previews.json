@@ -1,0 +1,38 @@
+{
+  "https://www.bls.gov/jlt/": {
+    "screenshotUrl": "/projects/www-bls-gov.png",
+    "description": "The Job Openings and Labor Turnover Survey (JOLTS) program of the Bureau of Labor Statistics (BLS) produces monthly and annual estimates of job openings, hires, and separations for the nation. The JOLTS program also produces monthly state estimates for all 50 states and the District of Columbia at the total nonfarm industry level."
+  },
+  "https://idcf.bls.gov": {
+    "screenshotUrl": "/projects/idcf-bls-gov.png",
+    "description": "The BLS Internet Data Collection Facility is used by participating organizations to submit data used for principle economic indicators."
+  },
+  "https://idcfars.bls.gov/ARS/": {
+    "screenshotUrl": "/projects/idcfars-bls-gov.png",
+    "description": "Login Page"
+  },
+  "https://cesdata.bls.gov/CESLite": {
+    "screenshotUrl": "/projects/cesdata-bls-gov.png",
+    "description": "Current Employment Statistics"
+  },
+  "https://idcfoews.bls.gov/OEWSLite": {
+    "screenshotUrl": "/projects/idcfoews-bls-gov.png",
+    "description": "Occupational Employment and Wage Statistics (OEWS)"
+  },
+  "https://joltsdata.bls.gov/JOLTS": {
+    "screenshotUrl": "/projects/joltsdata-bls-gov.png",
+    "description": "Login Page"
+  },
+  "https://data.bls.gov/PDQWeb/": {
+    "screenshotUrl": "/projects/data-bls-gov.png",
+    "description": null
+  },
+  "https://data.bls.gov/dataQuery/": {
+    "screenshotUrl": "/projects/data-bls-gov.png",
+    "description": "The BLS Data Finder allows for search across all BLS time series databases."
+  },
+  "https://data.bls.gov/dataViewer/": {
+    "screenshotUrl": "/projects/data-bls-gov.png",
+    "description": "The BLS Data Finder allows for search across all BLS time series databases."
+  }
+}
