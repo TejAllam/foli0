@@ -1,4 +1,8 @@
 {
+  "https://www.bls.gov/ces/": {
+    "screenshotUrl": "/projects/www-bls-gov.png",
+    "description": "Employment, Hours, and Earnings from the Current Employment Statistics survey (National) Home Page"
+  },
   "https://www.bls.gov/jlt/": {
     "screenshotUrl": "/projects/www-bls-gov.png",
     "description": "The Job Openings and Labor Turnover Survey (JOLTS) program of the Bureau of Labor Statistics (BLS) produces monthly and annual estimates of job openings, hires, and separations for the nation. The JOLTS program also produces monthly state estimates for all 50 states and the District of Columbia at the total nonfarm industry level."
