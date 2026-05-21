@@ -2,6 +2,7 @@ export const metaData = {
   baseUrl: "https://TejAllam.io/",
   title: "Tej Allam",
   name: "Tej Allam",
+  ogImage: "/profile_me.png",
   description:
     "Just my lil corner on the innanet.",
 };
